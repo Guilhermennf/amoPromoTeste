@@ -1,0 +1,35 @@
+.first-section {
+    display: flex;
+    padding-top: 120px;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 96%, #ffffff 100%),
+        url("../../Assets/familyBodyContent.png") center center;
+    background-size: cover;
+    height: 90vh;
+    padding-left: 15%;
+    padding-right: 15%;
+    justify-content: space-around;
+}
+
+.first-section h1 {
+    color: #3b454f;
+    font-weight: 700;
+    font-size: 48px;
+    text-wrap: wrap;
+}
+.first-section-second-column span {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 18px;
+    text-wrap: wrap;
+}
+
+@media (max-width: 425px) {
+    .first-section h1 {
+        color: #3b454f;
+        font-weight: 700;
+        font-size: 35px;
+        text-wrap: wrap;
+    }
+}

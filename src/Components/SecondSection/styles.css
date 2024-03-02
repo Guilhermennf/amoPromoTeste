@@ -1,0 +1,87 @@
+.second-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 30px;
+    padding-top: 120px;
+    justify-content: center;
+    margin: 20px;
+}
+
+.second-section-second-column {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.second-section-second-column > div > h3 {
+    text-align: center;
+    color: #3b454f;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.second-section-second-column > div > p {
+    text-align: center;
+    color: #83af38;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.second-section-second-column-infos {
+    list-style: none;
+    counter-reset: item;
+    padding: 50px 0;
+}
+
+.second-section-second-column-infos li {
+    counter-increment: item;
+}
+
+.second-section-second-column-infos li::before {
+    content: counter(item) ". ";
+    text-align: center;
+    color: #83af38;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.second-section-second-column > div > span {
+    text-align: center;
+    color: #3b454f;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.second-section-second-column > div > h4 {
+    text-align: start;
+    color: #83af38;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.second-section-second-column-button {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 440px) {
+    .second-section-first-column > img {
+        width: 328px;
+        height: 271px;
+    }
+}
+
+@media (max-width: 320px) {
+    .second-section-first-column > img {
+        width: 300px;
+        height: 271px;
+    }
+}
+@media (max-width: 540px) {
+    .second-section-first-column > img {
+        width: 280px;
+        height: 271px;
+    }
+}

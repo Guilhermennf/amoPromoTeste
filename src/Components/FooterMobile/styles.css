@@ -1,0 +1,167 @@
+.footer-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 25px 0 10px 0;
+}
+
+.footer-mobile > img {
+    margin-bottom: 25px;
+}
+
+.footer-mobile-first-bar {
+    height: 4px;
+    width: 100%;
+    background: linear-gradient(
+        to right,
+        #64ba00 0%,
+        #64ba00 25%,
+        #68629c 25%,
+        #68629c 50%,
+        #ffd012 50%,
+        #ffd012 75%,
+        #007e47 75%,
+        #007e47 100%
+    );
+    margin: 15px 0;
+}
+
+.footer-mobile-second-bar {
+    width: 90%;
+    background: #007e47;
+    margin: 15px 0;
+}
+
+.footer-mobile-sales {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 90%;
+}
+
+.footer-mobile-sales-p {
+    text-align: start;
+    margin: 5px 0;
+}
+
+.footer-mobile-sales > button {
+    background-color: #387b4c;
+    color: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+.footer-mobile-sales > button > img {
+    height: 22px;
+    width: 15px;
+}
+
+.accordion-footer {
+    width: auto;
+    text-wrap: wrap;
+    width: 90%;
+}
+
+.accordion-footer-item {
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.accordion-footer-title {
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+    transition: background-color 1s ease;
+}
+
+.accordion-footer-title:hover {
+    background-color: #f5f5f5;
+}
+
+.accordion-footer-content {
+    padding: 10px;
+    width: 90%;
+    font-weight: 400;
+    font-size: 14px;
+    overflow: hidden;
+    transition: max-height 1s ease-in-out;
+}
+
+.footer-mobile-payments {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 90%;
+    margin-bottom: 25px;
+}
+
+.footer-mobile-payments > h3 {
+    margin: 25px 0 10px 0;
+}
+
+.footer-mobile-payments > p {
+    margin: 15px 0 10px 0;
+    color: #435162;
+}
+.footer-mobile-payments > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: start;
+    width: 90%;
+}
+
+.footer-mobile-payments-cards > img {
+    margin-right: 5px;
+    width: 52px;
+    height: 31px;
+}
+
+#Boleto {
+    width: 43.75px;
+}
+
+#fivePercent {
+    width: 106px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.footer-mobile-payments-transfer > img {
+    width: 100%;
+}
+
+.footer-mobile-end {
+    padding: 20px 0 0 0;
+    width: 90%;
+}
+
+.footer-mobile-end > p {
+    text-wrap: wrap;
+    color: #435162;
+    padding: 10px 0 35px 0;
+}
+
+.footer-mobile-end > img {
+    margin: 0;
+    padding: 0;
+    width: 80%;
+}
+
+@media (min-width: 426px) {
+    .footer-mobile {
+        display: none;
+    }
+}

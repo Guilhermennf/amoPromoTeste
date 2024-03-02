@@ -1,0 +1,39 @@
+.third-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 0;
+    background-color: #f8f8f8;
+}
+
+.third-section > h3 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #3b454f;
+    text-align: center;
+}
+
+.third-section > p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #3b454f;
+    margin: 35px 0;
+    text-align: center;
+}
+
+.third-section-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ButtonCotacao {
+    order: 2;
+}
+
+@media screen and (max-width: 768px) {
+    .third-section {
+        flex-direction: column;
+    }
+}
