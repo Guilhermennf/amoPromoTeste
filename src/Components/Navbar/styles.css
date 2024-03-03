@@ -34,7 +34,7 @@ a {
 .navbar-container li a:hover,
 .navbar-container .menu-btn:hover,
 .navbar-container li img:hover {
-    color: grey;
+    color: #f2f2f2;
     cursor: pointer;
 }
 
@@ -50,7 +50,7 @@ a {
 }
 
 .navbar-container .logo {
-    margin: 25px 0 25px 0;
+    margin: 20px 0;
 }
 
 .navbar-container .menu {
@@ -125,7 +125,8 @@ a {
         float: left;
     }
     .navbar-container li a {
-        padding: 20px 30px;
+        padding: 5px 40px;
+        margin: 20px;
     }
     .navbar-container .menu {
         clear: none;
@@ -187,5 +188,15 @@ a {
 
     .navbar-container {
         top: 0;
+    }
+
+    .navbar-container .logo {
+        margin: 10px 0 0 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-container .logo svg {
+        margin: 10px 0 0 10px;
     }
 }

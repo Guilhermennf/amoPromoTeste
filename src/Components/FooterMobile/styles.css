@@ -124,7 +124,7 @@
 }
 
 .footer-mobile-payments-cards > img {
-    margin-right: 5px;
+    margin: 0 5px 5px 0;
     width: 52px;
     height: 31px;
 }
