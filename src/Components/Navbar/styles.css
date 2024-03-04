@@ -120,7 +120,7 @@ a {
     top: 0;
 }
 
-@media (min-width: 48em) {
+@media (min-width: 64em) {
     .navbar-container li {
         float: left;
     }
