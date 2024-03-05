@@ -4,16 +4,32 @@ import Couple from "../../Assets/couple.png";
 import ButtonCotacao from "../ButtonCotacao";
 
 import useHookAccordeons from "../useHooks/useHooksAccordeons";
-import { accordeons } from "../../Mocks/AccordeonFourthFooter/index";
+import { useEffect } from "react";
+import AxiosConfig from "../../Config/AxiosConfig";
 
 export default function FourthSection() {
-    const { activeIndex, toggleAccordion } = useHookAccordeons();
+    const { activeIndex, accordeons, setAccordeons, toggleAccordion } =
+        useHookAccordeons();
+
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const response = await AxiosConfig.get(
+                    "/v1/f42fca53-2029-4808-b429-edf21834d002"
+                );
+                setAccordeons(response.data);
+            } catch (error) {}
+        };
+
+        fetchData();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, []);
 
     return (
         <div className="fourth-section">
             <div className="accordion">
                 {accordeons.map((acc, index) => (
-                    <div key={index} className="accordion-item">
+                    <div key={acc.id} className="accordion-item">
                         <div
                             className="accordion-title"
                             onClick={() => toggleAccordion(index)}
