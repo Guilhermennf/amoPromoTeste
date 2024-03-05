@@ -1,7 +1,7 @@
 import "./styles.css";
 
 import Couple from "../../Assets/couple.png";
-import ButtonCotacao from "../ButtonCotacao";
+import ButtonCotacao from "../ButtonCotacao/ButtonCotacao";
 
 import useHookAccordeons from "../useHooks/useHooksAccordeons";
 import { useEffect } from "react";

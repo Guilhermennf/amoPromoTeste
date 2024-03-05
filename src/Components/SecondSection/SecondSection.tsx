@@ -1,7 +1,7 @@
 import "./styles.css";
 
 import Laptop from "../../Assets/laptop.png";
-import ButtonCotacao from "../ButtonCotacao";
+import ButtonCotacao from "../ButtonCotacao/ButtonCotacao";
 
 export default function SecondSection() {
     return (

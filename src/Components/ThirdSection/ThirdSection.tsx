@@ -1,7 +1,7 @@
 import "./styles.css";
 
-import ButtonCotacao from "../ButtonCotacao";
-import CardMorte from "../CardMorte";
+import ButtonCotacao from "../ButtonCotacao/ButtonCotacao";
+import CardMorte from "../CardMorte/CardMorte";
 
 export default function ThirdSection() {
     return (

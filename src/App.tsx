@@ -1,12 +1,12 @@
 import React from "react";
 
-import Navbar from "./Components/Navbar/index";
-import FirstSection from "./Components/FirstSection/index";
-import SecondSection from "./Components/SecondSection/index";
-import ThirdSection from "./Components/ThirdSection/index";
-import FourthSection from "./Components/FourthSection/index";
-import FifthSection from "./Components/FifthSection/index";
-import FooterMobile from "./Components/FooterMobile/index";
+import Navbar from "./Components/Navbar/Narbar";
+import FirstSection from "./Components/FirstSection/FirstSection";
+import SecondSection from "./Components/SecondSection/SecondSection";
+import ThirdSection from "./Components/ThirdSection/ThirdSection";
+import FourthSection from "./Components/FourthSection/FourthSection";
+import FifthSection from "./Components/FifthSection/FifthSection";
+import FooterMobile from "./Components/FooterMobile/FooterMobile";
 
 function App() {
     return (

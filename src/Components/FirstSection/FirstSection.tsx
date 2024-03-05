@@ -1,4 +1,4 @@
-import ButtonCotacao from "../ButtonCotacao";
+import ButtonCotacao from "../ButtonCotacao/ButtonCotacao";
 import "./styles.css";
 
 export default function FirstSection() {

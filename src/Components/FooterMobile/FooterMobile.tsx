@@ -18,7 +18,7 @@ import Pix from "../../Assets/pix.png";
 import footerEnd from "../../Assets/footerFinal.png";
 
 import useHookAccordeons from "../useHooks/useHooksAccordeons";
-import { mockAccordeon } from "../../Mocks/AccordeonFooter/index";
+import { mockAccordeon } from "../../Mocks/AccordeonFooter/AccordeonFooter";
 
 export default function FooterMobile() {
     const { activeIndex, toggleAccordion } = useHookAccordeons();
